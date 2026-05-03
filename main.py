@@ -27,8 +27,8 @@ def main():
     OUTPUT_DIR = os.path.join(os.path.dirname(__file__), 'output')
     
     # 棋盘格参数：调整这些参数以匹配你的棋盘格
-    PATTERN_SIZE = (8, 6)          # 棋盘格大小 (宽, 高)
-    SQUARE_SIZE = 1.0              # 棋盘格单位尺寸（任意单位）
+    PATTERN_SIZE = (11,8)          # 棋盘格大小 (宽, 高)
+    SQUARE_SIZE = 4.0              # 棋盘格单位尺寸（任意单位）
     
     print(f"📁 数据目录: {DATA_DIR}")
     print(f"📁 输出目录: {OUTPUT_DIR}")
